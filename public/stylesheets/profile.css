@@ -1,0 +1,16 @@
+body {
+    background-size: 100vw 100vh;
+    background-image: url('/public/images/beach.jpg');
+    background-repeat: no-repeat;
+    color: white;
+    text-align: end;
+}
+
+img {
+    height: 10vw;
+    width: 10vw;
+}
+
+.logoutButton {}
+
+.message {}

@@ -1,0 +1,102 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/public/images/tourism.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupPage {
+    background-image: url('../images/tourism2.png');
+}
+
+input {
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.container {
+    border: outset;
+    color: black;
+    font-size: larger;
+    background: transparent;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/*buttons */
+
+.signup {
+    color: darkred;
+}
+
+.submitButton {
+    text-align: center;
+}
+
+input[type=submit] {
+    transition: all 0.25s ease, color 1ms;
+    text-align: center;
+    -webkit-transition: ;
+    -moz-transition: ;
+    -ms-transition: ;
+    -o-transition: ;
+}
+
+input[type=submit]:focus {
+    outline: 0;
+}
+
+input[type=submit].animate {
+    border-radius: 50%;
+    background: transparent;
+    color: transparent;
+    border: 3px solid #337ab7;
+    border-left-color: #ccc;
+    animation: rotating 2s 0.25s linear infinite;
+    animation-delay: 0s;
+    width: 34px;
+    height: 34px;
+    -webkit-animation: rotating 2s 0.25s linear infinite;
+}
+
+.submitButton {
+    color: blue;
+}
+
+.btn-googleplus {
+    background: #E93F2E;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b72213;
+}
+
+.btn-googleplus:link,
+.btn-googleplus:visited {
+    color: #fff;
+}
+
+.btn-googleplus:active,
+.btn-googleplus:hover {
+    background: #b72213;
+    color: #fff;
+}

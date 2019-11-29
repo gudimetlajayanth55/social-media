@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/public/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/public/stylesheets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <form action="/auth/loginValidate" method="post">
+                <br>
+
+                <input type="text" name="username" placeholder="             username">
+                <br>
+                <br>
+                <input type="password" name="password" placeholder="            password">
+                <br>
+                <br>
+                <div class="submitButton">
+                    <input type="submit" class="btn btn-primary" />
+
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            <br> LOGIN WITH :
+            <br>
+
+            <a href="/auth/google" title="Google+" class="btn btn-googleplus btn-lg"><i class="fa fa-google-plus fa-fw">Google+</i> </a>
+            <button><a href="/auth/amazon" class="btn-light"> <img  src="../public/images/amazonButton.png" alt="amazon"> </a> 
+            </button>
+            <br>
+
+            <p style="color: blue ;font-size: larger;">
+                Not a registered user ? <a href="/signup" class="signup">signup</a>
+            </p>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
